@@ -22,7 +22,15 @@ const Skills = () => {
     },
     {
       title: "Design & Creative Tools",
-      skills: ["Adobe Premiere", "Adobe Photoshop", "Adobe Lightroom", "Adobe Illustrator", "Adobe InDesign", "Unreal Engine", "Unity", "Blender"]
+      skills: ["Adobe Premiere", "Adobe Photoshop", "Adobe Lightroom", "Figma", "Canva", "UI/UX Design", "Graphic Design", "Video Editing"]
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "CI/CD", "Terraform", "Ansible"]
+    },
+    {
+      title: "Game Development",
+      skills: ["Unity", "Unreal Engine", "C#", "Game Design", "Level Design", "Gameplay Programming"]
     },
     {
       title: "General Technical",
