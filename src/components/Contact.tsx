@@ -1,9 +1,20 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Linkedin } from "lucide-react";
 
 const Contact = () => {
+  const handleResumeDownload = () => {
+    // Create a more reliable download method
+    const resumeUrl = '/images/Madalina_Carcea_Resume.pdf';
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'Madalina_Carcea_Resume.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="contact" className="py-20 px-4 bg-indigo-950">
       <div className="max-w-5xl mx-auto">
@@ -32,7 +43,7 @@ const Contact = () => {
                 size="lg"
                 variant="outline"
                 className="glass-morphism text-xl md:text-2xl py-4 px-10 border-purple-400/50 text-white hover:border-cyan-400/70 hover:text-cyan-200 hover:bg-gradient-to-r hover:from-purple-500/10 hover:to-cyan-500/10 transition-all duration-300"
-                onClick={() => window.open('/images/Madalina_Carcea_Resume.pdf', '_blank')}
+                onClick={handleResumeDownload}
               >
                 Download Here My Resume
               </Button>
