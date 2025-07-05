@@ -12,8 +12,8 @@ const About = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+          <div className="lg:col-span-2 space-y-6">
             <Card className="bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">My Story</h3>
@@ -73,13 +73,13 @@ const About = () => {
             </Card>
           </div>
           
-          <div className="flex justify-center lg:justify-start">
-            <div className="relative max-w-md">
+          <div className="flex justify-center items-center h-full">
+            <div className="relative w-full max-w-sm">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/f07872e9-47eb-4159-b3fb-6b2ba4ff6f17.png" 
                   alt="AI and Data Science workspace"
-                  className="w-full h-80 object-cover"
+                  className="w-full h-96 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
               </div>

@@ -93,7 +93,7 @@ const Projects = () => {
               </div>
               
               <CardHeader className="pb-4 pt-8">
-                <CardTitle className="text-2xl font-bold group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-indigo-300 group-hover:to-purple-300 group-hover:bg-clip-text transition-all duration-500 flex items-center gap-3 high-contrast-text leading-tight">
+                <CardTitle className="text-2xl font-bold text-white transition-all duration-500 flex items-center gap-3 leading-tight">
                   {project.icon}
                   {project.title}
                 </CardTitle>
