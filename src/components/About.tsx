@@ -12,8 +12,8 @@ const About = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-          <div className="lg:col-span-2 space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="space-y-6 flex flex-col justify-center">
             <Card className="bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">My Story</h3>
@@ -36,6 +36,30 @@ const About = () => {
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">Work Experience</h3>
                 <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-primary">Digital Game Developer</h4>
+                    <p className="text-sm text-muted-foreground mb-2">02/06/2025 – Current</p>
+                    <p className="text-sm font-medium text-muted-foreground mb-2">Unity 2D Compliance Game (Lead Developer)</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed mb-2">
+                      A bite-sized 2D Unity game that turns existing compliance questions into 
+                      interactive puzzles (e.g. "Data Privacy Dungeon"), making training more 
+                      engaging and memorable.
+                    </p>
+                    <div className="text-muted-foreground text-sm">
+                      <p className="font-medium mb-1">Tech highlights:</p>
+                      <ul className="list-disc ml-4 mb-2 space-y-1">
+                        <li>Built in Unity 2D with C# (SpriteRenderer, Tilemap, Animator)</li>
+                        <li>Editor scripts to import CSV/JSON question banks into ScriptableObjects</li>
+                        <li>Unity Analytics for tracking accuracy, completion time, and replay rates</li>
+                      </ul>
+                      <p className="font-medium mb-1">My work:</p>
+                      <ul className="list-disc ml-4 space-y-1">
+                        <li>Architected a modular project and content pipeline for seamless policy updates</li>
+                        <li>Implemented core mechanics (movement, UI overlays, rewards) and automated testing</li>
+                        <li>Collaborated with artists and instructional designers to polish visuals and scenarios</li>
+                      </ul>
+                    </div>
+                  </div>
                   <div>
                     <h4 className="font-semibold text-primary">AI Engineer - DeRegt Cables</h4>
                     <p className="text-sm text-muted-foreground mb-2">08/2024 - 11/2024 | Rotterdam, Netherlands</p>
