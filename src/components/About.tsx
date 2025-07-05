@@ -12,7 +12,7 @@ const About = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <Card className="bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-6">
@@ -73,17 +73,19 @@ const About = () => {
             </Card>
           </div>
           
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="/images/f07872e9-47eb-4159-b3fb-6b2ba4ff6f17.png" 
-                alt="AI and Data Science workspace"
-                className="w-full h-80 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative max-w-md">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src="/images/f07872e9-47eb-4159-b3fb-6b2ba4ff6f17.png" 
+                  alt="AI and Data Science workspace"
+                  className="w-full h-80 object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+              </div>
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-xl"></div>
+              <div className="absolute -top-6 -right-6 w-24 h-24 bg-secondary/20 rounded-full blur-xl"></div>
             </div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-xl"></div>
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-secondary/20 rounded-full blur-xl"></div>
           </div>
         </div>
       </div>

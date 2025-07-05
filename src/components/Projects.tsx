@@ -79,7 +79,7 @@ const Projects = () => {
         {/* Enhanced 2-column grid layout with increased width */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-8xl mx-auto">
           {projects.map((project, index) => (
-            <Card key={index} className="group overflow-hidden bg-gradient-to-br from-indigo-900/40 via-purple-900/30 to-violet-900/40 backdrop-filter backdrop-blur-xl border-4 border-gradient-to-r from-indigo-400/60 via-purple-400/70 to-cyan-400/60 hover:border-indigo-300/80 rounded-2xl shadow-2xl hover:shadow-indigo-500/30 transition-all duration-500 hover:-translate-y-3 hover:scale-[1.02] min-h-[600px]">
+            <Card key={index} className="group overflow-hidden bg-gradient-to-br from-indigo-900/40 via-purple-900/30 to-violet-900/40 border-4 border-gradient-to-r from-indigo-400/60 via-purple-400/70 to-cyan-400/60 hover:border-indigo-300/80 rounded-2xl shadow-2xl hover:shadow-indigo-500/30 transition-all duration-500 hover:-translate-y-3 hover:scale-[1.02] min-h-[600px]">
               <div className="relative overflow-hidden rounded-t-2xl">
                 <img 
                   src={project.image} 
@@ -87,7 +87,7 @@ const Projects = () => {
                   className="w-full h-72 object-cover transition-transform duration-700 group-hover:scale-115"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/80 via-purple-900/40 to-transparent opacity-60 group-hover:opacity-80 transition-all duration-500"></div>
-                <div className="absolute top-4 right-4 p-3 bg-black/50 rounded-full backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0">
+                <div className="absolute top-4 right-4 p-3 bg-black/50 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0">
                   {project.icon}
                 </div>
               </div>
