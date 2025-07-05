@@ -22,7 +22,7 @@ const Skills = () => {
     },
     {
       title: "Design & Creative Tools",
-      skills: ["Adobe Premiere", "Adobe Photoshop", "Adobe Lightroom", "Adobe Illustrator", "Adobe InDesign", "Unreal Engine", "Blender"]
+      skills: ["Adobe Premiere", "Adobe Photoshop", "Adobe Lightroom", "Adobe Illustrator", "Adobe InDesign", "Unreal Engine", "Unity", "Blender"]
     },
     {
       title: "General Technical",
