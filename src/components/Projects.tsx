@@ -24,7 +24,7 @@ const Projects = () => {
       technologies: ["Python", "TensorFlow", "Keras"],
       liveUrl: "https://edubuas-my.sharepoint.com/:v:/g/personal/221989_buas_nl/EenLeLfCGSFGt0l8z6U2Kb8BRFFmZIxfmshNEAUsVMkOZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vBrnUh",
       prototypeUrl: "https://www.figma.com/proto/0HG8pMb5h5RO3LSfegtPdD/Prototype-app?page-id=0%3A1&type=design&node-id=1-3&viewport=1070%2C982%2C0.79&t=dYXf8aYKGhkGyZ01-1&scaling=scale-down&starting-point-node-id=1%3A3&show-proto-sidebar=1",
-      githubUrl: "#",
+      githubUrl: "https://github.com/MadalinaCarcea221989/Personal-Projects/blob/main/Computer%20Vision%20Brain%20Tumours",
       icon: <Zap className="w-5 h-5 text-cyan-400" />
     },
     {
@@ -37,12 +37,28 @@ const Projects = () => {
       icon: <Brain className="w-5 h-5 text-purple-400" />
     },
     {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and featuring smooth animations and futuristic design elements.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Dashboard SDG - Sustainable Development Goals",
+      description: "A modern, responsive dashboard application for tracking and visualizing Sustainable Development Goals (SDGs) progress.",
+      image: "/images/Dashboard.png",
+      technologies: ["Power BI", "Data Visualization", "Sustainability"],
+      liveUrl: "https://edubuas-my.sharepoint.com/:u:/g/personal/221989_buas_nl/EaHT5uXvIeRAoTGJZkp6lJABvB-n8cBm24naUgv_z8LI0Q?e=AJaT0b",
+      githubUrl: "https://github.com/MadalinaCarcea221989/Personal-Projects/blob/main/Dashboard-SDG/Dashboards",
+      icon: <Zap className="w-5 h-5 text-cyan-400" />
+    },
+    {
+      title: "Machine Learning Model - Predicting football match outcomes",
+      description: "A machine learning model that predicts football match outcomes using historical data and advanced algorithms.",
+      image: "/images/Report_football.png",
+      technologies: ["Python", "TensorFlow", "Pandas"],
+      githubUrl: "https://github.com/MadalinaCarcea221989/Personal-Projects/blob/main/Machine%20Learning%20Reports%20on%20football%20data/Carcea_Madalina_221989_Year1BlockBReport.pdf",
+      icon: <Zap className="w-5 h-5 text-cyan-400" />
+    },
+    {
+      title: "Deep Learning Model and SQL Database usage",
+      description: "A deep learning model for image classification using convolutional neural networks (CNNs) and a SQL database for data management.",
+      image: "/images/Streamlit.png",
+      technologies: ["Python", "Keras", "SQL"],
+      githubUrl: "https://github.com/MadalinaCarcea221989/Personal-Projects/blob/main/Deep%20Learning%20and%20SQL%20data%20usage",
       icon: <Zap className="w-5 h-5 text-cyan-400" />
     }
   ];
