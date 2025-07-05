@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
@@ -98,12 +97,12 @@ const About = () => {
           </div>
           
           <div className="flex justify-center items-center h-full">
-            <div className="relative w-full max-w-sm">
+            <div className="relative w-full max-w-lg">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/f07872e9-47eb-4159-b3fb-6b2ba4ff6f17.png" 
                   alt="AI and Data Science workspace"
-                  className="w-full h-96 object-cover"
+                  className="w-full h-[500px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
               </div>
